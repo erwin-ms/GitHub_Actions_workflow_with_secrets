@@ -5,7 +5,7 @@ on: push
 jobs:
   markdown-link-check:
     runs-on: ubuntu-latest
-    if: github.repository == 'githubtraining/lab-use-secrets'
+    if: github.repository == 'erwin-ms/GitHub_Actions_workflow_with_secrets'
     steps:
       - uses: actions/checkout@master
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
